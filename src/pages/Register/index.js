@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiArrowDownLeft } from 'react-icons/fi'
+import { FiArrowLeft } from 'react-icons/fi'
 
 import './styles.css';
 
@@ -18,9 +18,9 @@ function Register() {
             Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.
           </p>
 
-          <Link className="back-link" to="/register">
-            <FiArrowDownLeft size={15} color="#E02041" />
-            Voltar para
+          <Link className="back-link" to="/">
+            <FiArrowLeft size={15} color="#E02041" />
+            Voltar para home
           </Link>
         </section>
         <form>
