@@ -66,10 +66,10 @@ function Profile() {
             <strong>CASO:</strong>
             <p>{incident.title}</p>
 
-            <strong>DESCRIÇÃO</strong>
+            <strong>DESCRIÇÃO:</strong>
             <p>{incident.description}</p>
 
-            <strong>VALOR</strong>
+            <strong>VALOR:</strong>
             <p>{Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL' }).format(incident.value)}</p>
 
             <button onClick={() => handleDeleteIncident(incident.id)}type="button">
